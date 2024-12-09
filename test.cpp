@@ -1,5 +1,9 @@
 # include <iostream>
-using namespace std;
 int main(){
-    cout << "hi";
+    int a = 3;
+    int& b = a;
+    b = 2;
+    int* p;
+    *p = 3;
+    std::cout << *p;
 }
