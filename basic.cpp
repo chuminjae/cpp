@@ -19,14 +19,14 @@ int main(){
     std::cin >> user_input;
     switch(user_input){
         case1:
-            std::cout << "1";
+            std::cout  << "1";
             break;
         case2:
             std::cout << "2";
             break;
         case3:
             std::cout << "3";
-            break;
+            break;  
         default: 
             std::cout << "default";
             break;
